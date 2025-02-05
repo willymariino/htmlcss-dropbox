@@ -13,11 +13,16 @@ body {
 
     display: flex;
     max-width: 1900px;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
 }
 
 .d-flex {
     display: flex;
+    justify-content: space-evenly;
 }
 
 ul {
