@@ -70,7 +70,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: white;
+
 
 }
 
@@ -87,11 +87,14 @@ nav a {
 
 .btn-primary {
     background-color: #007bff;
-    color: white;
     text-decoration: none;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 5px;
+}
+
+.accedi {
+    color: white;
 }
 
 /* fine header */
@@ -108,11 +111,20 @@ nav a {
 .bg-jumbotron {
     background-color: #b4d0e6;
 
+
+}
+
+.jumbo-right {
+    width: 30%;
+}
+
+.jumbo-left {
+
+    width: 70%;
+
 }
 
 .image {
-
-    width: 476px%;
-    margin: 0 auto;
-
+    width: 100%;
+    display: block;
 }
