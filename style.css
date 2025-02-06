@@ -202,6 +202,20 @@ strong {
     font-size: 60px;
 }
 
+.billing-options {
+    display: flex;
+    padding: 60px;
+
+}
+
+.full-circle {
+    border: 10px solid #0061fe;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
 main .products {
     display: flex;
     flex-wrap: wrap;
