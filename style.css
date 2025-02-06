@@ -133,7 +133,8 @@ li a {
     width: 40%;
 }
 
-#jumboright .jumbo-left {
+
+.jumbo-left {
 
     width: 60%;
 
@@ -286,4 +287,24 @@ main .products>div {
 .btn-2 a {
     color: white;
     text-decoration: none;
+}
+
+.partner-info {
+    display: flex;
+}
+
+
+
+
+.partner-info .partner-left {
+    padding-left: 50px;
+    width: 40%;
+    font-size: 20px;
+}
+
+
+.partner-info .partner-right {
+
+    width: 60%;
+
 }
