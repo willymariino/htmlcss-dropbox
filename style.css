@@ -67,7 +67,7 @@ nav ul {
     align-items: center;
 }
 
-li.btn-primary a {
+.btn a {
     color: white;
 }
 
@@ -129,4 +129,15 @@ li.btn-primary a {
 .image {
     width: auto;
     height: 400px;
+}
+
+
+.btn-2 {
+    margin-top: 40px;
+    background-color: #007bff;
+    display: block;
+    max-width: 250px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
 }
