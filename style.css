@@ -236,15 +236,14 @@ main .products {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    max-width: 1500px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 main .products>div {
     width: calc((100% - 40px) / 3);
     flex-shrink: 0;
-    height: 200px;
-    border: 2px solid black;
+    border: 1px solid #d0cfd4;
 
 }
 
@@ -255,5 +254,36 @@ main .products>div {
 .column-heading {
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d0cfd4;
+}
+
+.type-of-service {
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.icons {
+    padding-top: 70px;
+}
+
+.price {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.dot {
+    color: white;
+}
+
+.purchase-button {
+    margin: 40px auto;
+
+}
+
+.btn-2 a {
+    color: white;
+    text-decoration: none;
 }
