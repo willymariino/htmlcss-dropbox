@@ -37,9 +37,6 @@ ul {
 
 */
 
-img {
-    width: 100%;
-}
 
 nav {
     display: flex;
@@ -120,15 +117,16 @@ li.btn-primary a {
 
 
 #jumbotron .jumbo-right {
-    width: 30%;
+    width: 40%;
 }
 
 #jumboright .jumbo-left {
 
-    width: 70%;
+    width: 60%;
 
 }
 
 .image {
-    width: 100%;
+    width: auto;
+    height: 400px;
 }
