@@ -134,11 +134,17 @@ li a {
 
 }
 
+/* immagine proposte per il cliente  */
+
 .image {
     width: auto;
     height: 700px;
 }
 
+/* immagine proposte per il cliente  */
+
+
+/* bottone "inizia la prova gratuita" */
 
 .btn-2 {
     margin-top: 40px;
@@ -152,9 +158,17 @@ li a {
     font-size: 30px;
 }
 
+/* bottone "inizia la prova gratuita" */
+
+
+
+/* info box accanto a immagine */
+
 #info-1 {
     font-size: 30px;
 }
+
+/* info box accanto a immagine */
 
 .arrow-down {
     margin-top: 100px;
@@ -162,7 +176,11 @@ li a {
     height: 100px;
 }
 
+/* annulla in qualsiasi momento */
+
 strong {
     margin-top: 40px;
     font-size: 25px;
 }
+
+/* annulla in qualsiasi momento */
