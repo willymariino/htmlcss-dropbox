@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
 
 }
 
@@ -65,10 +66,17 @@ nav ul {
     display: flex;
     gap: 10px;
     align-items: center;
+
 }
 
 .btn a {
     color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+
 }
 
 .nav-right {
@@ -128,16 +136,33 @@ nav ul {
 
 .image {
     width: auto;
-    height: 400px;
+    height: 700px;
 }
 
 
 .btn-2 {
     margin-top: 40px;
-    background-color: #007bff;
+    background-color: #0061fe;
     display: block;
-    max-width: 250px;
-    padding: 15px;
+    max-width: 400px;
+    padding: 15px 10px;
     color: white;
     text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#info-1 {
+    font-size: 30px;
+}
+
+.arrow-down {
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+strong {
+    margin-top: 40px;
+    font-size: 25px;
 }
