@@ -214,6 +214,20 @@ strong {
     border: 10px solid #0061fe;
     border-radius: 50%;
     padding: 10px;
+    margin-right: 20px;
+
+}
+
+.circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.monthly-billing {
+    font-size: 30px;
 
 }
 
