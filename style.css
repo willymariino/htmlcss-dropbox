@@ -205,6 +205,8 @@ strong {
 .billing-options {
     display: flex;
     padding: 60px;
+    max-width: 2000px;
+    margin: 0 auto;
 
 }
 
@@ -212,7 +214,7 @@ strong {
     border: 10px solid #0061fe;
     border-radius: 50%;
     padding: 10px;
-    margin: 0 auto;
+
 }
 
 
