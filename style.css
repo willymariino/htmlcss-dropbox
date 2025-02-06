@@ -90,6 +90,8 @@ li a {
 .container-2 {
     width: 1190px;
     margin: 0 auto;
+    position: relative;
+    top: 150px;
 }
 
 
@@ -134,14 +136,15 @@ li a {
 
 }
 
-/* immagine proposte per il cliente  */
+/* immagine "proposte per il cliente"  */
 
 .image {
     width: auto;
     height: 700px;
+
 }
 
-/* immagine proposte per il cliente  */
+/* immagine "proposte per il cliente"  */
 
 
 /* bottone "inizia la prova gratuita" */
