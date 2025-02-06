@@ -206,7 +206,7 @@ strong {
     display: flex;
     padding: 60px;
     max-width: 2000px;
-    margin: 0 auto;
+    margin: 0 700px;
 
 }
 
@@ -236,6 +236,8 @@ main .products {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 main .products>div {
@@ -245,3 +247,5 @@ main .products>div {
     border: 2px solid black;
 
 }
+
+.column-heading {}
