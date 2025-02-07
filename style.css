@@ -133,8 +133,7 @@ li a {
     width: 40%;
 }
 
-
-.jumbo-left {
+#jumboright .jumbo-left {
 
     width: 60%;
 
@@ -289,22 +288,29 @@ main .products>div {
     text-decoration: none;
 }
 
+/* quarta colonna orizzontale */
+.product-item.big {
+    width: 100%;
+
+}
+
+.product-item.big .content .content-left {
+    width: 70%;
+
+}
+
+.product-item.big .content .content-right {
+    width: 30%;
+    text-align: right;
+}
+
+/* quarta colonna orizzontale */
+
+
+/* fine colonne */
+
 .partner-info {
     display: flex;
 }
 
-
-
-
-.partner-info .partner-left {
-    padding-left: 50px;
-    width: 40%;
-    font-size: 20px;
-}
-
-
-.partner-info .partner-right {
-
-    width: 60%;
-
-}
+.image {}
