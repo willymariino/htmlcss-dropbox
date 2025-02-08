@@ -319,21 +319,59 @@ main .products>div {
 
 /* sezione partner - testo con accanto l'immagine */
 
-.container-4 {
-    width: 1190px;
-    margin: 0 auto;
-
-}
-
-.partner-info {
+/* Main container */
+.container {
     display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 50px;
 }
 
-.partner-info .partner-left {
-    width: 60%;
+/* Image styling */
+.image-box {
+    flex: 1;
 }
 
-.partner-info .partner-right {
-    width: 40%;
+.image-box img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
 
+/* Text section */
+.text-box {
+    flex: 1;
+    text-align: left;
+}
+
+.text-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #000;
+    color: #fff;
 }
