@@ -111,6 +111,7 @@ li a {
 
 /* bg jumbotron */
 
+
 .main-title {
     font-size: 80px;
     text-align: center;
@@ -294,12 +295,18 @@ main .products>div {
 
 }
 
-.product-item.big .content .content-left {
+.content {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #d0cfd4;
+}
+
+.content-left {
     width: 70%;
 
 }
 
-.product-item.big .content .content-right {
+.content-right {
     width: 30%;
     text-align: right;
 }
@@ -309,8 +316,24 @@ main .products>div {
 
 /* fine colonne */
 
+
+/* sezione partner - testo con accanto l'immagine */
+
+.container-4 {
+    width: 1190px;
+    margin: 0 auto;
+
+}
+
 .partner-info {
     display: flex;
 }
 
-.image {}
+.partner-info .partner-left {
+    width: 60%;
+}
+
+.partner-info .partner-right {
+    width: 40%;
+
+}
